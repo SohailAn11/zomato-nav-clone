@@ -1,0 +1,200 @@
+@media only screen and (max-width: 992px) {
+
+  
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+
+
+    .nav-toggle i {
+
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .links-button {
+        /* display: none; */
+        /* display: flex; */
+        margin-top: 10px;
+        position: absolute;
+        top: 18%;
+        left: 0;
+        flex-direction: column;
+        /* margin-top: 10px; */
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        /* border: 2px solid black; */
+        transition: 0.2s ease-in-out;
+    }
+
+
+
+    .active {
+        left: -100%;
+    }
+
+    .navlinks .links li {
+      
+        color: rgb(226, 8, 8);
+    }
+
+
+
+    .navlinks .links {
+       
+        flex-direction: column;
+        /* margin-top: 8px; */
+        gap: 25px;
+
+    }
+
+    .btn {
+        flex-direction: column;
+        margin: auto;
+        gap: 10px;
+        margin: 25px;
+
+    }
+
+    .btn button {
+
+        background-color: rgb(226, 8, 8);
+        color: white;
+        font-size: 1.2rem;
+        width: 9rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+    .links-button {
+        position: absolute;
+        top: 14%;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+
+    .nav-toggle i {
+
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .navlinks .links li {
+      
+        color: rgb(226, 8, 8);
+        font-size: 1rem;
+    }
+
+    
+    .navlinks .links {
+       
+        flex-direction: column;
+        /* margin-top: 8px; */
+        gap: 20px;
+
+    }
+
+    .btn {
+        flex-direction: column;
+        margin: auto;
+        gap: 8px;
+        margin: 20px;
+
+    }
+
+    .btn button {
+
+        background-color: rgb(226, 8, 8);
+        color: white;
+        font-size: 1.2rem;
+        width: 16rem;
+
+    }
+
+    img {
+        width: 8rem;
+        color: white;
+    }
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+
+
+    .links-button {
+        position: absolute;
+        top: 12%;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 5px;
+    }
+
+
+    .nav-toggle i {
+
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .navlinks .links li {
+      
+        color: rgb(226, 8, 8);
+        font-size: 1rem;
+    }
+
+    
+    .navlinks .links {
+       
+        flex-direction: column;
+        /* margin-top: 8px; */
+        gap: 15px;
+
+    }
+
+    .btn {
+        flex-direction: column;
+        margin: auto;
+        gap: 10px;
+        margin: 15px;
+
+    }
+
+    .btn button {
+
+        background-color: rgb(226, 8, 8);
+        color: white;
+        font-size: 1.2rem;
+        width: 90vw;
+
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    img {
+        width: 6rem;
+        color: white;
+    }
+
+}
+
